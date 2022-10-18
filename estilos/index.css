@@ -35,6 +35,29 @@ body{
     transition: all 100ms;
 }
 
+.container .cambio{
+    border-radius: 7px;
+    box-shadow: -2px 0px 27px 2px rgba(225,196,196,1);
+    -webkit-box-shadow: -2px 0px 27px 2px rgba(225,196,196,1);
+    -moz-box-shadow: -2px 0px 27px 2px rgba(225,196,196,1);
+}
+
+.container .cambio a{
+    color: #fff;
+    font-size: 18px;
+    background: #905E96;
+    border-radius:  20 px solid #856a6f;
+}
+
+.container .cambio a:hover{
+    background: wheat;
+    color: black;
+    transition: all 100ms;
+}
+
+
+
+
 
 
 nav ul li.nav-item a{
@@ -113,8 +136,7 @@ nav ul li.nav-item a:hover{
    color: #fff;
 }
 
-section .productos{
-    
+section .productos{    
     margin-bottom: 100px;
 }
 
@@ -139,6 +161,7 @@ section .productos{
     color: #25d366;
     background-color:#fff;
     }
+    
     .icono{
     margin-top:14px;
     margin-left:3px;
